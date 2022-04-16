@@ -22,7 +22,7 @@ export class Role extends Model<Role, RoleCreationAttrs> {
 
     @ApiProperty({example: 'Administrator', description: 'User role description'})
     @Column({type: DataType.STRING, allowNull: false})
-    email: string;
+    description: string;
 
     @BelongsToMany(() => User, () => UserRoles)
     users: User[];
