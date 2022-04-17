@@ -7,13 +7,13 @@ Install dependencies:
 $ npm install 
 ```
 Create .env file in root folder with configurations: 
-PORT=5000
+```bashPORT=5000
 POSTGRES_HOST=localhost 
 POSTGRES_USER=habrpguser
 POSTGRES_DB=habrdb
 POSTGRES_PASSWORD=pgpwd4habr
 POSTGRES_PORT=5432
-
+```
 Also create .production.env and .development.env and paste the data inside
 
 To start / stop Postgres server: 
@@ -27,7 +27,7 @@ You can simply delete this folder and then run docker-compose up in order to del
 ### Swagger documentation:
 ```http://localhost:5000/api/docs
 ```
-# https://habr.com/ru/post/578744/ 
+
 
 ```
 nest generate module nameofmodule
@@ -35,7 +35,7 @@ nest generate controller nameofcontroller
 nest generate service nameofservice
 ```
 
-  <p align="center">Check this <a href="https://habr.com/ru/post/578744/" target="_blank">Habr article</a> to setup docker for PostreSQL and PGADMin.</p>
+  <p align="center">Check this <a href="https://habr.com/ru/post/578744/" target="_blank">Habr article</a> to setup docker for PostreSQL and PGAdmin.</p>
 
 
 ## Running the app
@@ -61,16 +61,3 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
