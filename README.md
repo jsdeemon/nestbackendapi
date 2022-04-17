@@ -14,12 +14,15 @@ POSTGRES_DB=habrdb
 POSTGRES_PASSWORD=pgpwd4habr
 POSTGRES_PORT=5432
 
+Also create .production.env and .development.env and paste the data inside
 
 To start / stop Postgres server: 
 ```bash 
 $ docker-compose up
 $ docker-compose down 
 ```
+All related to postgres data is located in folder pgdata. 
+You can simply delete this folder and then run docker-compose up in order to delete all data from database
 
 ### Swagger documentation:
 ```http://localhost:5000/api/docs
