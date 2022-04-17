@@ -25,17 +25,14 @@ All related to postgres data is located in folder pgdata.
 You can simply delete this folder and then run docker-compose up in order to delete all data from database
 
 ### Swagger documentation:
-```http://localhost:5000/api/docs
-```
+  <p><a href="http://localhost:5000/api/docs" target="_blank">http://localhost:5000/api/docs</a> </p>
 
-
-```
-nest generate module nameofmodule
+```nest generate module nameofmodule
 nest generate controller nameofcontroller
 nest generate service nameofservice
 ```
 
-  <p align="center">Check this <a href="https://habr.com/ru/post/578744/" target="_blank">Habr article</a> to setup docker for PostreSQL and PGAdmin.</p>
+  <p align="">Check this <a href="https://habr.com/ru/post/578744/" target="_blank">Habr article</a> to setup docker for PostreSQL and PGAdmin.</p>
 
 
 ## Running the app
