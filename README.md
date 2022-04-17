@@ -13,6 +13,8 @@ POSTGRES_USER=habrpguser
 POSTGRES_DB=habrdb
 POSTGRES_PASSWORD=pgpwd4habr
 POSTGRES_PORT=5432
+
+SECRET_KEY=your_private_jwt_key
 ```
 Also create .production.env and .development.env and paste the data inside
 
