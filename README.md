@@ -25,7 +25,8 @@ $ docker-compose down
 ```
  <p>If you have an old version of Docker compose,<a href="https://docs.docker.com/compose/cli-command/#install-on-linux" target="_blank">visit and install docker compose v2</a>. In case of usiong docker compose v2 you should run:</p>
  
-```$ docker compose up
+``` 
+$ docker compose up
 $ docker compose down
  ```
 All related to postgres data is located in folder pgdata. 
