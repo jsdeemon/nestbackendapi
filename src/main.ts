@@ -17,6 +17,8 @@ async function start() {
     // Swagger
     const document = SwaggerModule.createDocument(app, config)
     SwaggerModule.setup('/api/docs', app, document)
+    // in case to limit access to all endpoints:
+    // app.useGlobalGuards()
 
     await app.listen(PORT, () => console.log(`Server is running on port: ${PORT}`)
     )
