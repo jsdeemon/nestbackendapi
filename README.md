@@ -23,7 +23,7 @@ To start / stop Postgres server:
 $ docker-compose up
 $ docker-compose down 
 ```
- <p>If you have an old version of Docker compose,<a href="https://docs.docker.com/compose/cli-command/#install-on-linux" target="_blank">visit and install docker compose v2</a>. In case of usiong docker compose v2 you should run:</p>
+ <p>If you have an old version of Docker compose, <a href="https://docs.docker.com/compose/cli-command/#install-on-linux" target="_blank">visit and install docker compose v2</a>. In case of usiong docker compose v2 you should run:</p>
  
 ``` 
 $ docker compose up
@@ -45,6 +45,9 @@ nest generate service nameofservice
 
 ### Postman web API  
 <p align="">If you don't have installed Postman, you can use <a href="https://www.postman.com/api-evangelist/workspace/docker/overview" target="_blank">Web version of Postman</a> Just create an account and use from the web without installation.</p>
+
+### Newman
+<p>You can also use Newman and install it via NPM. Here is the link: <a href="https://github.com/postmanlabs/newman" target="_blank">https://github.com/postmanlabs/newman</a></p>
 
 ## Running the app
 
