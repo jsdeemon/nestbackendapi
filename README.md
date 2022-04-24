@@ -43,6 +43,9 @@ nest generate service nameofservice
   <p align="">Check this <a href="https://habr.com/ru/post/578744/" target="_blank">Habr article</a> to setup docker for PostreSQL and PGAdmin.</p>
 
 
+### Postman web API  
+<p align="">If you don't have installed Postman, you can use <a href="https://www.postman.com/api-evangelist/workspace/docker/overview" target="_blank">Web version of Postman</a> Just create an account and use from the web without installation.</p>
+
 ## Running the app
 
 ```bash
